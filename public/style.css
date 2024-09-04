@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+button{
+    cursor: pointer;
+}
+.content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.content h4{
+    margin: 20px 0;
+    font-size: 20px;
+}
+.info_member{
+    margin: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.item{
+    width: 30%;
+    border: 1px solid silver;
+    margin: 10px;
+    padding: 15px;
+}
+.form_member{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+.form_member form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.form_member form input, .form_member form button{
+    width: 80%;
+    margin: 10px 0;
+    font-size: 16px;
+    padding: 5px;
+}
+.form_member p{
+    font-size: 20px;
+    margin: 10px 0;
+}
+.member{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.buttons{
+    width: 100%;
+    display: flex;
+    margin: 20px 0;
+    justify-content: space-evenly;
+}
+.delete{
+    background: red;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.edit{
+    background: blue;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+}
+header{
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+header nav{
+    width: 50%;
+    display: flex;
+    border-bottom: 2px solid #000;
+    width: 90%;
+    justify-content: center;
+    padding-bottom: 20px;
+
+}
+header nav a{
+    margin: 0 20px;
+    /* width: 3rem; */
+    padding: 10px;
+    font-size: 17px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #000;
+    text-decoration: none;
+    font-weight: normal;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+header nav a:hover{
+    background: blue;
+    transition: 0.2s linear;
+    color: #fff;
+}
+.signin{
+    width: 30%;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background: #8e8c8c47;
+    padding: 10px;
+}
+.signin input {
+    width: 300px;
+    margin: 10px 0;
+    font-size: 17px;
+    padding: 5px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    outline: green;
+}
+.signin input:focus{
+    border: 2px solid green;   
+}
+.signin button{
+    width: 50%;
+    margin: 10px 0;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+.error{
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 6px;
+    color: red;
+    font-weight: bold;
+}
+.account_item{
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid blue;
+    border-radius: 5px;
+    margin: 0 20px;
+    text-align: left;
+    padding: 20px;
+}
+.account_item p{
+    margin: 5px 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.edit_account input{
+    width: 90%;
+    padding: 6px;
+    font-size: 17px;
+    outline: none;
+}
+.edit_account button{
+    margin-top: 10px;
+    background: #fff;
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.edit_account button:hover{
+    border: 2px solid blue;
+    background: blue;
+    color: #fff;
+}
+.domens{
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.domens h2{
+    width: 90%;
+    background: silver;
+    padding: 10px;
+    text-align: center;
+}
+.domens .account_item{
+    margin-top: 20px;
+}
